@@ -17,7 +17,7 @@ export default function FooterBar({
   restaurante = "Zigpi Restaurante",
   lojaAberta = true,
   caixaAberto = true,
-  pedidosPendentes = 1,
+  
   atendente = "Pedremi Sevrrais",
   versao = "2.2.2",
 }: Props) {
@@ -40,10 +40,6 @@ export default function FooterBar({
         </div>
 
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
-          <span className="flex items-center gap-2">
-            <span className="inline-block w-4 text-center">🧾</span>
-            {pedidosPendentes} Pedido pendentes
-          </span>
           <span>{atendente}</span>
           <span className="flex items-center gap-2">
             <Dot on={caixaAberto} />

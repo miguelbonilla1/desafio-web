@@ -30,7 +30,7 @@
 - **Visualização**: Lista de todas as comandas ativas
 - **Dados Detalhados**: Cliente, área, tempo, valor, quantidade de pessoas
 - **Criação de Comandas**: Modal completo com validação
-- **Integração com Mesas**: Seleção automática de mesa disponível
+- **Integração com Mesas**: Seleção de mesa disponível
 - **Identificação Flexível**: Por nome, telefone ou ID customizado
 
 ### 🔍 **Sistema de Filtros e Busca**
@@ -42,10 +42,10 @@
 
 ### **Otimizações de Performance**
 
-- ✅ **Virtualização**: `react-window` para listas grandes (+500 itens)
-- ✅ **Debouncing**: Busca com delay para evitar chamadas excessivas
+- **Virtualização**: `react-window` para listas grandes (+500 itens)
+- **Debouncing**: Busca com delay para evitar chamadas excessivas
 
-## 🛠️ **Arquitetura e Tecnologias**
+## **Arquitetura e Tecnologias**
 
 ### **Stack Principal**
 
@@ -182,6 +182,6 @@ npm run build            # Build otimizado
 npm run start            # Servidor produção
 npm run preview          # Preview da build
 
-## Tecnologias: Next.js 16 • TypeScript • Redux Toolkit • Tailwind CSS • React-Window • JSON Server
+
 
 ```
