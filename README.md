@@ -40,7 +40,7 @@
 - **Busca Inteligente**: Por número da mesa, nome do cliente, atendente
 - **Estado Persistente**: Filtros mantidos na navegação
 
-### ⚡ **Otimizações de Performance**
+### **Otimizações de Performance**
 
 - ✅ **Virtualização**: `react-window` para listas grandes (+500 itens)
 - ✅ **Debouncing**: Busca com delay para evitar chamadas excessivas
@@ -184,7 +184,6 @@ npm run build            # Build otimizado
 npm run start            # Servidor produção
 npm run preview          # Preview da build
 
-**Tecnologias**: Next.js 16 • TypeScript • Redux Toolkit • Tailwind CSS • React-Window • JSON Server
+## Tecnologias: Next.js 16 • TypeScript • Redux Toolkit • Tailwind CSS • React-Window • JSON Server
 
-**Tempo de desenvolvimento**: Otimizado para demonstrar expertise técnica e capacidade de entrega de soluções completas.
 ```
