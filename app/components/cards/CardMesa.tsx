@@ -29,13 +29,13 @@ export default function CardMesa({
     inactive: "bg-white border-red-300",
   };
 
-  // icones especificos por modelo conforme requerimento
+  // icones especificos por modelo
   const getModeloIcon = () => {
     switch (area?.toLowerCase()) {
       case "mesa": return "🪑";
       case "barraca": return "";
       case "apartamento": return "";
-      default: return ""; // default para mesa
+      default: return "🪑"; // default para mesa
     }
   };
 

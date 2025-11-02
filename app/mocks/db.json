@@ -359,6 +359,154 @@
       "lastOrderCreated": "2025-11-02 01:14:09.000000",
       "numberOfCustomers": 4,
       "customerIdentifier": "dghdgh"
+    },
+    {
+      "id": "184625",
+      "areaId": 32,
+      "contact": "11922110099",
+      "idleTime": 0,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": "Lucia Ferreira",
+      "identifier": "DEL",
+      "orderSheetIds": [
+        "4321"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-02 14:00:33.000000",
+      "numberOfCustomers": 3,
+      "customerIdentifier": "Delivery #456"
+    },
+    {
+      "id": "184626",
+      "areaId": 347,
+      "contact": "11911009988",
+      "idleTime": 18,
+      "subtotal": 6890,
+      "modelIcon": "tent",
+      "authorName": "Roberto Lima",
+      "identifier": "B01",
+      "orderSheetIds": [
+        "3210"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-02 15:25:18.000000",
+      "numberOfCustomers": 5,
+      "customerIdentifier": "Cabana Beach 01"
+    },
+    {
+      "id": "184627",
+      "areaId": 347,
+      "contact": "11900998877",
+      "idleTime": 3,
+      "subtotal": 0,
+      "modelIcon": "apartment",
+      "authorName": "Sandra Alves",
+      "identifier": "801",
+      "orderSheetIds": [
+        "2109"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-02 16:10:55.000000",
+      "numberOfCustomers": 2,
+      "customerIdentifier": "Suite Premium 801"
+    },
+    {
+      "id": "190001",
+      "hash": "mesa21h",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "active",
+      "hasOrder": 1,
+      "contact": null,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": "Miguelatendenteservico505",
+      "identifier": "21",
+      "orderSheetIds": [
+        "3e17"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-02 12:19:05.000000",
+      "numberOfCustomers": 5,
+      "customerIdentifier": "Miguelservico505"
+    },
+    {
+      "id": "190002",
+      "hash": "mesa22h",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "available",
+      "hasOrder": 0,
+      "contact": null,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "22",
+      "orderSheetIds": [],
+      "hasOrderSheets": false,
+      "lastOrderCreated": null,
+      "numberOfCustomers": 0,
+      "customerIdentifier": null
+    },
+    {
+      "id": "190003",
+      "hash": "mesa23h",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "available",
+      "hasOrder": 0,
+      "contact": null,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "23",
+      "orderSheetIds": [],
+      "hasOrderSheets": false,
+      "lastOrderCreated": null,
+      "numberOfCustomers": 0,
+      "customerIdentifier": null
+    },
+    {
+      "id": "190004",
+      "hash": "mesa24h",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "available",
+      "hasOrder": 0,
+      "contact": null,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "24",
+      "orderSheetIds": [],
+      "hasOrderSheets": false,
+      "lastOrderCreated": null,
+      "numberOfCustomers": 0,
+      "customerIdentifier": null
+    },
+    {
+      "id": "190005",
+      "hash": "mesa25h",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "available",
+      "hasOrder": 0,
+      "contact": null,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "25",
+      "orderSheetIds": [],
+      "hasOrderSheets": false,
+      "lastOrderCreated": null,
+      "numberOfCustomers": 0,
+      "customerIdentifier": null
     }
   ],
   "ordersheets": [
@@ -426,7 +574,7 @@
       "contact": "9599999",
       "hasOrder": 0,
       "idleTime": 0,
-      "subtotal": 25098,
+      "subtotal": 10599,
       "identifier": "123456789",
       "mainIdentifier": "123456789",
       "customerName": "miguelb",
@@ -589,6 +737,89 @@
         "hash": "1aqxppda",
         "model": "Mesa",
         "identifier": "10"
+      }
+    },
+    {
+      "id": "4321",
+      "contact": "11922110099",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "Delivery #456",
+      "mainIdentifier": "Delivery #456",
+      "customerName": "Lucia Ferreira",
+      "numberOfCustomers": 3,
+      "checkpad": {
+        "id": "184625",
+        "hash": "del456w",
+        "model": "Mesa",
+        "identifier": "DEL"
+      }
+    },
+    {
+      "id": "3210",
+      "contact": "11911009988",
+      "hasOrder": 1,
+      "idleTime": 18,
+      "subtotal": 6890,
+      "identifier": "Cabana Beach 01",
+      "mainIdentifier": "Cabana Beach 01",
+      "customerName": "Roberto Lima",
+      "numberOfCustomers": 5,
+      "checkpad": {
+        "id": "184626",
+        "hash": "cb001e",
+        "model": "Barraca",
+        "identifier": "B01"
+      }
+    },
+    {
+      "id": "2109",
+      "contact": "11900998877",
+      "hasOrder": 0,
+      "idleTime": 3,
+      "subtotal": 0,
+      "identifier": "Suite Premium 801",
+      "mainIdentifier": "Suite Premium 801",
+      "customerName": "Sandra Alves",
+      "numberOfCustomers": 2,
+      "checkpad": {
+        "id": "184627",
+        "hash": "sp801r",
+        "model": "Apartamento",
+        "identifier": "801"
+      }
+    },
+    {
+      "id": "1098",
+      "contact": "11899887766",
+      "hasOrder": 1,
+      "idleTime": 30,
+      "subtotal": 12450,
+      "identifier": "Mesa Família 12",
+      "mainIdentifier": "Mesa Família 12",
+      "customerName": "Família Rodrigues",
+      "numberOfCustomers": 8,
+      "checkpad": {
+        "id": "184628",
+        "hash": "fam12t",
+        "model": "Mesa",
+        "identifier": "12"
+      }
+    },
+    {
+      "id": "3e17",
+      "contact": "123456",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "505",
+      "mainIdentifier": "505",
+      "customerName": "Miguelservico505",
+      "numberOfCustomers": 5,
+      "checkpad": {
+        "id": "190001",
+        "identifier": "21"
       }
     }
   ]

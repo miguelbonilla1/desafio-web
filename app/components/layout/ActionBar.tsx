@@ -55,7 +55,7 @@ function ActionDropdown() {
       {isOpen && (
         <>
           <div className="fixed inset-0 z-40" onClick={() => setIsOpen(false)} />
-          <div className="absolute bottom-full left-0 mb-1 w-48 bg-white border border-neutral-200 rounded-lg shadow-lg z-50 max-h-60 overflow-auto">
+          <div className="absolute bottom-full left-0 w-48 bg-white border border-neutral-200 rounded-lg shadow-lg z-50 max-h-70 pb-5 overflow-auto">
             <button
               onClick={() => handleAction("juntar-transferir")}
               className="w-full px-3 py-2 text-left text-sm hover:bg-neutral-50 whitespace-nowrap cursor-pointer"

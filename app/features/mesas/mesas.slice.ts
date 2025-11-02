@@ -20,6 +20,7 @@ export type Mesa = {
   valorTotal?: number;
   area?: string;
   activity?: string;
+  modelIcon?: string;
 };
 
 // Tipo base para dados brutos da API (simplificado)
@@ -88,6 +89,7 @@ function normalizeMesa(cp: ApiCheckpad, customValue?: number): Mesa {
     valorTotal,
     area: cp.model,
     activity: cp.activity,
+    modelIcon: cp.modelIcon ?? undefined,
   };
 }
 
