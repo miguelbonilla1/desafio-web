@@ -171,7 +171,7 @@ npx json-server --watch app/mocks/db.json --port 4000
 └── README.md                         # Documentação
 ```
 
-## 🚀 **Scripts e Comandos**
+## **Scripts e Comandos**
 
 ```bash
 # Desenvolvimento
