@@ -289,6 +289,24 @@ export const atualizarComanda = createAsyncThunk(
     
     // 1) Tenta atualizar em /ordersheets (mock pigz)
     try {
+      // Primeiro, busca todos os ordersheets para encontrar o correto
+      console.log("🔍 Buscando ordersheet com checkpad.id:", id);
+      
+      const listResponse = await fetch(`${API}/ordersheets`);
+      if (!listResponse.ok) {
+        throw new Error(`Erro ao buscar ordersheets: ${listResponse.status}`);
+      }
+      
+      const ordersheets = (await listResponse.json()) as ApiOrdersheet[];
+      const targetOrdersheet = ordersheets.find(os => String(os.checkpad?.id) === id);
+      
+      if (!targetOrdersheet) {
+        console.log("❌ Ordersheet não encontrado com checkpad.id:", id);
+        throw new Error(`Ordersheet com checkpad.id ${id} não encontrado`);
+      }
+      
+      console.log("✅ Ordersheet encontrado:", { id: targetOrdersheet.id, checkpadId: targetOrdersheet.checkpad?.id });
+      
       // mapeia campos Comanda -> Ordersheet
       const payloadPigz: Record<string, unknown> = {};
       if (data.total !== undefined) {
@@ -299,9 +317,9 @@ export const atualizarComanda = createAsyncThunk(
       if (data.telefone !== undefined) payloadPigz.contact = data.telefone ?? null;
       if (data.qtdClientes !== undefined) payloadPigz.numberOfCustomers = data.qtdClientes ?? 1;
 
-      console.log("📤 Enviando PATCH para /ordersheets:", { url: `${API}/ordersheets/${encodeURIComponent(id)}`, payload: payloadPigz });
+      console.log("📤 Enviando PATCH para /ordersheets:", { url: `${API}/ordersheets/${encodeURIComponent(targetOrdersheet.id)}`, payload: payloadPigz });
       
-      const rOrder = await fetch(`${API}/ordersheets/${encodeURIComponent(id)}`, {
+      const rOrder = await fetch(`${API}/ordersheets/${encodeURIComponent(targetOrdersheet.id)}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payloadPigz),
