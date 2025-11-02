@@ -1,0 +1,595 @@
+{
+  "areas": [
+    {
+      "id": "32",
+      "name": "Bares",
+      "sheetLabel": "Comanda",
+      "description": "",
+      "maxIdleTime": 0,
+      "serviceModel": "FIXED",
+      "operationType": "WITH_TABLE",
+      "checkpadModels": [
+        {
+          "id": 1,
+          "icon": "table-restaurant",
+          "name": "Mesa"
+        }
+      ],
+      "checkpadQuantity": 10,
+      "sheetLabelPlural": "Comandas",
+      "maxIdleTimeEnabled": 0,
+      "checkpadModelQuantity": 1,
+      "defaultVizualizationList": "CHECKPAD"
+    },
+    {
+      "id": "347",
+      "name": "Com mesa e flexivel",
+      "sheetLabel": "Comanda",
+      "description": "Mesa flexivel",
+      "maxIdleTime": 25,
+      "serviceModel": "FLEXIBLE",
+      "operationType": "WITH_TABLE",
+      "checkpadModels": [
+        {
+          "id": 4,
+          "icon": "tent",
+          "name": "Barraca"
+        },
+        {
+          "id": 9,
+          "icon": "apartment",
+          "name": "Apartamento"
+        }
+      ],
+      "checkpadQuantity": 20,
+      "sheetLabelPlural": "Comandas",
+      "maxIdleTimeEnabled": 1,
+      "checkpadModelQuantity": 2,
+      "defaultVizualizationList": "ORDERSHEET"
+    },
+    {
+      "id": "74",
+      "name": "Minha Loja",
+      "sheetLabel": "Comanda",
+      "description": "",
+      "maxIdleTime": 5,
+      "serviceModel": "FIXED",
+      "operationType": "WITH_TABLE",
+      "checkpadModels": [],
+      "checkpadQuantity": 0,
+      "sheetLabelPlural": "Comandas",
+      "maxIdleTimeEnabled": 1,
+      "checkpadModelQuantity": 0,
+      "defaultVizualizationList": "CHECKPAD"
+    },
+    {
+      "id": "30",
+      "name": "Salão",
+      "sheetLabel": "Comanda",
+      "description": "",
+      "maxIdleTime": 0,
+      "serviceModel": "FIXED",
+      "operationType": "WITH_TABLE",
+      "checkpadModels": [
+        {
+          "id": 1,
+          "icon": "table-restaurant",
+          "name": "Mesa"
+        }
+      ],
+      "checkpadQuantity": 50,
+      "sheetLabelPlural": "Comandas",
+      "maxIdleTimeEnabled": 0,
+      "checkpadModelQuantity": 1,
+      "defaultVizualizationList": "CHECKPAD"
+    },
+    {
+      "id": "310",
+      "name": "Área VIP",
+      "sheetLabel": "Comanda",
+      "description": "",
+      "maxIdleTime": 0,
+      "serviceModel": "FLEXIBLE",
+      "operationType": "WITH_TABLE",
+      "checkpadModels": [],
+      "checkpadQuantity": 0,
+      "sheetLabelPlural": "Comandas",
+      "maxIdleTimeEnabled": 0,
+      "checkpadModelQuantity": 0,
+      "defaultVizualizationList": "CHECKPAD"
+    }
+  ],
+  "checkpads": [
+    {
+      "id": "184609",
+      "hash": "5ei1cxa",
+      "model": "Mesa",
+      "areaId": 30,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 14499,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "1",
+      "orderSheetIds": [
+        "7500"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 02:15:00.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "Miguel B"
+    },
+    {
+      "id": "184610",
+      "hash": "9zvs2b2",
+      "model": "Mesa",
+      "areaId": 30,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "2",
+      "orderSheetIds": [
+        "b4dd"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 02:16:33.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "mb"
+    },
+    {
+      "id": "184611",
+      "hash": "el9irou",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 25098,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "3",
+      "orderSheetIds": [
+        "5a2b"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 10:00:00.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "miguelb"
+    },
+    {
+      "id": "184612",
+      "hash": "j6n9h2m",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "4",
+      "orderSheetIds": [
+        "8538"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 11:00:00.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "Comanda de miguel 4"
+    },
+    {
+      "id": "184613",
+      "hash": "ns106ge",
+      "model": "Mesa",
+      "areaId": 30,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": 3,
+      "subtotal": 1000,
+      "modelIcon": "table-restaurant",
+      "authorName": "Guilherme 2",
+      "identifier": "5",
+      "orderSheetIds": [
+        17058
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-17 20:58:31.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "1"
+    },
+    {
+      "id": "184614",
+      "hash": "sdeqvu6",
+      "model": "Mesa",
+      "areaId": 30,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "6",
+      "orderSheetIds": [
+        "0f16"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 12:00:00.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "miguelbonilla1235"
+    },
+    {
+      "id": "184615",
+      "hash": "wyshl7y",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "7",
+      "orderSheetIds": [
+        "6d1a"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 17:33:42.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "miguelbonilla1235"
+    },
+    {
+      "id": "184616",
+      "hash": "11k68alq",
+      "model": "Mesa",
+      "areaId": 30,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "8",
+      "orderSheetIds": [
+        "637c"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 19:03:48.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "Miguelon"
+    },
+    {
+      "id": "184617",
+      "hash": "165jyzzi",
+      "model": "Mesa",
+      "areaId": 32,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": null,
+      "identifier": "9",
+      "orderSheetIds": [
+        "d681"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 17:35:59.000000",
+      "numberOfCustomers": 2,
+      "customerIdentifier": "miguelbonilla1235"
+    },
+    {
+      "id": "184618",
+      "hash": "1aqxppda",
+      "model": "Mesa",
+      "areaId": 30,
+      "activity": "empty",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "table-restaurant",
+      "authorName": "Miguel Atendente",
+      "identifier": "10",
+      "orderSheetIds": [
+        "a376"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-02 02:52:36.000000",
+      "numberOfCustomers": 5,
+      "customerIdentifier": "hola"
+    },
+    {
+      "id": "184498",
+      "hash": "3umkhy8r",
+      "model": "Barraca",
+      "areaId": 347,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "tent",
+      "authorName": null,
+      "identifier": "30",
+      "orderSheetIds": [
+        "7ed5"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-01 23:44:01.000000",
+      "numberOfCustomers": 8,
+      "customerIdentifier": "MiguelCliente"
+    },
+    {
+      "id": "184560",
+      "hash": "3jvxlkndx",
+      "model": "Apartamento",
+      "areaId": 347,
+      "activity": "active",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "apartment",
+      "authorName": null,
+      "identifier": "1002",
+      "orderSheetIds": [
+        "f65a"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-10-31 16:30:06.000000",
+      "numberOfCustomers": 1,
+      "customerIdentifier": "Pedro"
+    },
+    {
+      "id": "184502",
+      "hash": "4d03grrv",
+      "model": "Barraca",
+      "areaId": 347,
+      "activity": "empty",
+      "hasOrder": 1,
+      "idleTime": null,
+      "subtotal": 0,
+      "modelIcon": "tent",
+      "authorName": "hdghdhd",
+      "identifier": "34",
+      "orderSheetIds": [
+        "bd80"
+      ],
+      "hasOrderSheets": true,
+      "lastOrderCreated": "2025-11-02 01:14:09.000000",
+      "numberOfCustomers": 4,
+      "customerIdentifier": "dghdgh"
+    }
+  ],
+  "ordersheets": [
+    {
+      "id": "17058",
+      "author": {
+        "id": 127,
+        "name": "Guilherme 2",
+        "type": "seller"
+      },
+      "opened": "2025-10-17T20:58:12Z",
+      "contact": "",
+      "checkpad": {
+        "id": 184613,
+        "hash": "ns106ge",
+        "model": "Mesa",
+        "modelIcon": "table-restaurant",
+        "identifier": "5",
+        "areaId": 30
+      },
+      "hasOrder": 1,
+      "idleTime": 3,
+      "subtotal": 36396,
+      "identifier": "12223",
+      "customerName": "",
+      "mainIdentifier": "12223",
+      "numberOfCustomers": 1
+    },
+    {
+      "id": "7500",
+      "contact": "95991509078",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 51696,
+      "identifier": "ID 54",
+      "mainIdentifier": "ID 54",
+      "customerName": "Miguel B",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184609",
+        "hash": "5ei1cxa",
+        "model": "Mesa",
+        "identifier": "1"
+      }
+    },
+    {
+      "id": "b4dd",
+      "contact": "123",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 37197,
+      "identifier": "123456",
+      "mainIdentifier": "123456",
+      "customerName": "mb",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184610",
+        "hash": "9zvs2b2",
+        "model": "Mesa",
+        "identifier": "2"
+      }
+    },
+    {
+      "id": "5a2b",
+      "contact": "9599999",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 25098,
+      "identifier": "123456789",
+      "mainIdentifier": "123456789",
+      "customerName": "miguelb",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184611",
+        "hash": "el9irou",
+        "model": "Mesa",
+        "identifier": "3"
+      }
+    },
+    {
+      "id": "f65a",
+      "contact": "959915999999",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 25098,
+      "identifier": "Identificador 503",
+      "mainIdentifier": "Identificador 503",
+      "customerName": "Pedro",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184560",
+        "hash": "3jvxlkndx",
+        "model": "Apartamento",
+        "identifier": "1002"
+      }
+    },
+    {
+      "id": "8538",
+      "contact": "05050505",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "Comanda4",
+      "mainIdentifier": "Comanda4",
+      "customerName": "Comanda de miguel 4",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184612",
+        "hash": "j6n9h2m",
+        "model": "Mesa",
+        "identifier": "4"
+      }
+    },
+    {
+      "id": "0f16",
+      "contact": "11",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "comanda",
+      "mainIdentifier": "comanda",
+      "customerName": "miguelbonilla1235",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184614",
+        "hash": "sdeqvu6",
+        "model": "Mesa",
+        "identifier": "6"
+      }
+    },
+    {
+      "id": "6d1a",
+      "contact": "9555555",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 14499,
+      "identifier": "Identifiacador 50",
+      "mainIdentifier": "Identifiacador 50",
+      "customerName": "MiguelBonilla",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184615",
+        "hash": "wyshl7y",
+        "model": "Mesa",
+        "identifier": "7"
+      }
+    },
+    {
+      "id": "637c",
+      "contact": "99999999999",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "Id 20",
+      "mainIdentifier": "Id 20",
+      "customerName": "Miguelon",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184616",
+        "hash": "11k68alq",
+        "model": "Mesa",
+        "identifier": "8"
+      }
+    },
+    {
+      "id": "d681",
+      "contact": "95959595959599595",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "Id 505021",
+      "mainIdentifier": "Id 505021",
+      "customerName": "MiguelBonillaMartinez",
+      "numberOfCustomers": 1,
+      "checkpad": {
+        "id": "184617",
+        "hash": "165jyzzi",
+        "model": "Mesa",
+        "identifier": "9"
+      }
+    },
+    {
+      "id": "7ed5",
+      "contact": "95990",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "IDCOMANDA12345",
+      "mainIdentifier": "IDCOMANDA12345",
+      "customerName": "MiguelCliente",
+      "numberOfCustomers": 8,
+      "checkpad": {
+        "id": "184498",
+        "hash": "3umkhy8r",
+        "model": "Barraca",
+        "identifier": "30"
+      }
+    },
+    {
+      "id": "bd80",
+      "contact": "dghdghg",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 22698,
+      "identifier": "dfhdhfg",
+      "mainIdentifier": "dfhdhfg",
+      "customerName": "dghdgh",
+      "numberOfCustomers": 4,
+      "checkpad": {
+        "id": "184502",
+        "hash": "4d03grrv",
+        "model": "Barraca",
+        "identifier": "34"
+      }
+    },
+    {
+      "id": "a376",
+      "contact": "95991509078",
+      "hasOrder": 0,
+      "idleTime": 0,
+      "subtotal": 0,
+      "identifier": "252525",
+      "mainIdentifier": "252525",
+      "customerName": "hola",
+      "numberOfCustomers": 5,
+      "checkpad": {
+        "id": "184618",
+        "hash": "1aqxppda",
+        "model": "Mesa",
+        "identifier": "10"
+      }
+    }
+  ]
+}

@@ -3,24 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"npm:api\"",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "api": "json-server --watch app/mocks/db.json --port 4000"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.9.2",
+    "clsx": "^2.1.1",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^0.546.0",
+    "next": "16.0.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "next": "16.0.0"
+    "react-hook-form": "^7.65.0",
+    "react-redux": "^9.2.0",
+    "react-window": "^1.8.11",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/react-window": "^1.8.8",
+    "concurrently": "^9.2.1",
     "eslint": "^9",
-    "eslint-config-next": "16.0.0"
+    "eslint-config-next": "16.0.0",
+    "json-server": "^1.0.0-beta.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
