@@ -11,7 +11,7 @@
 - **Filtros Avançados**: Por status, atendente, área e busca
 - **Virtualização**: React-window para +500 mesas
 - **Débouncing**: Busca otimizada com 300ms delay
-- **TypeScript**: Tipagem completa em todo projeto
+- **TypeScript**: Tipagem em todo projeto
 - **Redux Toolkit**: Estado global gerenciado
 - **API Mock**: JSON Server simulando backend
 
@@ -44,8 +44,6 @@
 
 - ✅ **Virtualização**: `react-window` para listas grandes (+500 itens)
 - ✅ **Debouncing**: Busca com delay para evitar chamadas excessivas
-- ✅ **Lazy Loading**: Componentes carregados sob demanda
-- ✅ **Code Splitting**: Páginas separadas em chunks
 
 ## 🛠️ **Arquitetura e Tecnologias**
 
@@ -91,7 +89,7 @@ API Mock (JSON Server) → Redux Actions → Redux State → React Components
                User Interactions ← UI Updates ← Selectors
 ```
 
-## 📦 **Instalação e Execução**
+## **Instalação e Execução**
 
 ### **Pré-requisitos**
 
@@ -124,7 +122,7 @@ npx json-server --watch app/mocks/db.json --port 4000
   - `GET /ordersheets` - Dados das comandas
   - `GET /areas` - Áreas do restaurante
 
-## 🏗️ **Estrutura Detalhada do Projeto**
+## **Estrutura do Projeto**
 
 ```
 � desafio-pigz/
