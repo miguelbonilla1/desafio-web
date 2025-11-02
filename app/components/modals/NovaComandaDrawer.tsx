@@ -139,11 +139,9 @@ export default function NovaComandaDrawer({ open, onClose, preMesaId }: Props) {
             {/* Identificação da comanda */}
             <div className="space-y-2">
               <label className="block text-sm font-medium">
-                Identifique a comanda <span className="text-neutral-500 italic">(opcional)</span>
+                Identifique a comanda
               </label>
-              <p className="text-xs text-neutral-500">
-                Deixe em branco para usar a numeração automática do sistema
-              </p>
+             
               <input
                 className="w-full rounded-xl border border-neutral-300 px-3 py-2 outline-none"
                 placeholder="Número ou nome da comanda"
@@ -155,7 +153,7 @@ export default function NovaComandaDrawer({ open, onClose, preMesaId }: Props) {
             {/* Identificação do cliente */}
             <div className="space-y-2">
               <label className="block text-sm font-medium">
-                Identifique o cliente <span className="text-neutral-500 italic">(opcional)</span>
+                Identifique o cliente 
               </label>
               <div>
                 <input
@@ -273,7 +271,7 @@ export default function NovaComandaDrawer({ open, onClose, preMesaId }: Props) {
               </select>
 
               <label className="block text-sm font-medium">
-                Descrição do motivo de envio para essa mesa <span className="text-neutral-500 italic">(opcional)</span>
+                Descrição do motivo de envio para essa mesa 
               </label>
               <textarea
                 className="w-full min-h-24 rounded-xl border border-neutral-300 px-3 py-2 outline-none"
